@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background-color:rgb(215, 194, 194);
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 2.5rem;
+}
+
+.btn-container{
+   display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color: tomato;
+}
+
+.green{
+    background-color: palegreen;
+}
+
+.yellow{
+    background-color: rgb(231, 223, 110);
+}
+
+.blue{
+    background-color: skyblue;
+}
+
+.flash{
+    background-color:white;
+}
+
+.userflash{
+    background-color:aliceblue
+}
+
+@media (max-width: 600px){
+    .btn{
+        height: 100px;
+        width: 100px;
+        border: 5px solid black;
+        border-radius: 20%;
+        margin: 1rem;
+    }
+}
